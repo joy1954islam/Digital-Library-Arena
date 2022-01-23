@@ -19,3 +19,7 @@ def audio_books(request):
 
 def academic(request):
     return render(request, 'academic.html')
+
+
+def university(request):
+    return render(request, 'university.html')
