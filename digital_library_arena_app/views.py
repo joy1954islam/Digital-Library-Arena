@@ -15,3 +15,7 @@ def books(request):
 
 def audio_books(request):
     return render(request, 'audio_books.html')
+
+
+def academic(request):
+    return render(request, 'academic.html')
