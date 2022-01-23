@@ -23,3 +23,7 @@ def academic(request):
 
 def university(request):
     return render(request, 'university.html')
+
+
+def newspapers(request):
+    return render(request, 'newspapers.html')
