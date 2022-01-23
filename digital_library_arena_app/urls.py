@@ -13,4 +13,5 @@ urlpatterns = [
     path('digital_library_arena/', views.digital_library_arena, name='digital_library_arena'),
     path('development/', views.development, name='development'),
     path('enclyopedia/', views.enclyopedia, name='enclyopedia'),
+    path('research/', views.research, name='research'),
 ]

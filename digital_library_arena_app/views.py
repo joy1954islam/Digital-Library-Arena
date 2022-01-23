@@ -44,3 +44,6 @@ def development(request):
 def enclyopedia(request):
     return render(request, 'enclyopedia.html')
 
+
+def research(request):
+    return render(request, 'research.html')
