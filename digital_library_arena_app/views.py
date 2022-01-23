@@ -35,3 +35,7 @@ def journals_and_magazine(request):
 
 def digital_library_arena(request):
     return render(request, 'digital_library_arena.html')
+
+
+def development(request):
+    return render(request, 'development.html')
