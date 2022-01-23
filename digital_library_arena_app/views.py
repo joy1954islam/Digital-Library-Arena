@@ -47,3 +47,7 @@ def enclyopedia(request):
 
 def research(request):
     return render(request, 'research.html')
+
+
+def kids(request):
+    return render(request, 'kids.html')
