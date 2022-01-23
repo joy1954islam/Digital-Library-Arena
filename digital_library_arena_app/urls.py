@@ -12,4 +12,5 @@ urlpatterns = [
     path('journals_and_magazine', views.journals_and_magazine, name='journals_and_magazine'),
     path('digital_library_arena/', views.digital_library_arena, name='digital_library_arena'),
     path('development/', views.development, name='development'),
+    path('enclyopedia/', views.enclyopedia, name='enclyopedia'),
 ]

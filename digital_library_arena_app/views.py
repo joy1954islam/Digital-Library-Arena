@@ -39,3 +39,8 @@ def digital_library_arena(request):
 
 def development(request):
     return render(request, 'development.html')
+
+
+def enclyopedia(request):
+    return render(request, 'enclyopedia.html')
+
