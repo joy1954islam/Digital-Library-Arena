@@ -56,3 +56,7 @@ def kids(request):
 def translation_and_language(request):
     return render(request, 'translation_and_language.html')
 
+
+def login(request):
+    return render(request, 'login.html')
+
