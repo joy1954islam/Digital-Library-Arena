@@ -27,3 +27,11 @@ def university(request):
 
 def newspapers(request):
     return render(request, 'newspapers.html')
+
+
+def journals_and_magazine(request):
+    return render(request, 'journals_and_magazine.html')
+
+
+def digital_library_arena(request):
+    return render(request, 'digital_library_arena.html')

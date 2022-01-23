@@ -9,4 +9,6 @@ urlpatterns = [
     path('academic/', views.academic, name='academic'),
     path('university/', views.university, name='university'),
     path('newspapers/', views.newspapers, name='newspapers'),
+    path('journals_and_magazine', views.journals_and_magazine, name='journals_and_magazine'),
+    path('digital_library_arena/', views.digital_library_arena, name='digital_library_arena'),
 ]
