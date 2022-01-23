@@ -51,3 +51,8 @@ def research(request):
 
 def kids(request):
     return render(request, 'kids.html')
+
+
+def translation_and_language(request):
+    return render(request, 'translation_and_language.html')
+
